@@ -1,0 +1,23 @@
+//台味特展
+.product-number {
+    input {
+        width: 46px;
+    }    
+}
+//藝饗宴
+.product-detail {
+    .product-text {
+        text-indent: 2rem;        
+    }
+    .product-banner {
+        background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/max-van-den-oetelaar-IMYe9uYN27E-unsplash.jpg?raw=true');
+        @include banner;
+        height: 400px;
+        width: 100%;
+    }
+    .product-img {
+        height: 559px;
+        
+    }
+}
+
